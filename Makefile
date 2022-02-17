@@ -7,6 +7,6 @@
 
 PLATFORMS := testplatform
 
-
 all:
+	make -C framework
 	make -C testplatform
