@@ -13,7 +13,7 @@ FRAMEWORK_DIR := $(CURDIR)/../framework/build
 
 # compiler flags
 CC      := g++
-CCFLAGS := -Wall -O3 -Werror -std=c++20 -fPIC
+CCFLAGS := -Wall -O3 -Werror -std=c++2a -fPIC
 CCFLAGS += -I $(SOURCE_DIR)/include
 CCFLAGS += -I $(FRAMEWORK_DIR)/include
 CCFLAGS += -I $(PVLIB_HOME)/include
